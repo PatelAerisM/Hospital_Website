@@ -1,0 +1,61 @@
+.patient-details {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    background-color: #f2f2f2; /* Light gray background */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    max-width: 800px; /* Adjust maximum width */
+    margin: 0 auto; /* Center align horizontally */
+    position: relative; /* Ensure position context for absolute positioning */
+}
+
+.detail-box {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: #ffffff; /* White background */
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+.detail-box strong {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold; /* Ensure strong tags are bold */
+}
+
+.copy-btn {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3;
+}
+
+.view-back-btn {
+    margin-top: 1rem;
+    margin-bottom: 2rem; /* Increased margin-bottom for more space */
+    display: block; /* Ensure block display for positioning */
+    text-align: center; /* Center-align text */
+}
+
+.button-group {
+    margin-top: 1rem; /* Adjust top margin for spacing */
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+}
+
+.button-group .btn {
+    margin-left: 1rem; /* Adjust left margin for spacing */
+}

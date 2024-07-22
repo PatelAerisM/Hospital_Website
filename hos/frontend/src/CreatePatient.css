@@ -1,0 +1,43 @@
+.form-container {
+    width: 70%; /* Make the box wider */
+    max-width: 800px; /* Limit maximum width */
+    margin: 0 auto; /* Center align horizontally */
+    padding: 30px; /* Add padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    background-color: #f2f2f2; /* Light gray background */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.form-control {
+    margin-bottom: 20px; /* Space between form controls */
+    border: 2px solid #ccc; /* Border around each form control */
+    padding: 10px; /* Padding inside each form control */
+    border-radius: 5px; /* Rounded corners for form controls */
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Make labels bold */
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-control textarea {
+    height: 120px; /* Increase height of textarea */
+}
+
+/* New box style */
+.box {
+    border: 2px solid #ccc; /* Border around the box */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 8px; /* Rounded corners for the box */
+    background-color: #fff; /* White background for the box */
+}
